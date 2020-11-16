@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title> Continuous Assessment Test</title>
+        <meta charset="UTF-8">
+		<meta name="fragment" content="!">
+		<meta name="description" content="A free Web Screen Reader that improves a site's accessibility for the blind or the visually impaired.'">
+		<meta name="keywords" content="Screen Reader, Accessibility, Visually Impaired,">
+		<meta name="viewport" content="width=device-width">
+		<link rel="icon" type="image/png" sizes="24x24" href="./browser/favicon.ico">
+		<link rel="stylesheet" href="./browser/bootstrap.min.css">
+        <style>
+            body {
+                text-align: center;
+            }
+            .jumbotron {
+                margin-bottom: 0;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+            #free {
+                position: absolute;
+                top: 15px;
+                left: -25px;
+                padding: 2px 25px;
+                background: pink;
+                transform: rotate(-45deg);
+                display: block;
+                line-height: initial;
+                font-size: 16px;
+                text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+                box-shadow: 0 1px 5px 1px rgba(0,0,0,0.3);
+            }
+            .form-control {
+                max-width: 300px;
+                margin: auto;
+            }
+            .form-control[type=checkbox] {
+                display: inline-block;
+                width: auto;
+            }
+            .form-control[type=checkbox]:not(:focus) {
+                box-shadow: none;
+            }
+            #reveal-checked:not(:checked) ~ * {
+                display: none;
+            }
+			.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+        </style>
+    </head>
+    <body>
+        <main class="jumbotron">
+			<h2><b>Continous Assessment Test  </b></h2>
+            <h3>General Knowledge -18IT0GK</h3>
+			<h6> Handling Faculty:Mr.XXXX </h6>
+            <h4>Lets start reading the Question Paper</h4>
+			
+
+            <div>
+			     
+				 <h4><b>PART A-One Marks </b></h4><br><br><br>
+				 <h3 align="left"><b>Question Five</b> Please select the correct option after reading the question <br>
+					Speed of Light is maximum in <br><br></h3>
+				<h4 align="left">	<b><select name="cars" id="cars">
+  <option value="volvo">Vacuum</option>
+  <option value="saab">Water</option>
+  <option value="mercedes">Air</option></b></h4>
+ 
+</select>
+            </div>
+			<div class="container">
+  <form class="form-inline" action="">
+    <div class="form-group">
+     <p><a href="question4.html" class="button">Previous Question</a></p>
+    </div>
+  
+  <div class="form-group">
+     <p><a href="Result.html" class="button">Finish Attempt</a></p></div>
+  </form>
+</div>
+        </main>
+        
+        <script src="./browser/system.js"></script>
+        <script src="./bundle.js"></script>
+        <script>System.load("Main");</script>
+    </body>
+</html>
